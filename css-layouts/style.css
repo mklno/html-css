@@ -185,7 +185,7 @@ nav a:link{
   padding: 20px; */
   /* display: block; */
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
 }
 nav a:link:last-child{
@@ -225,13 +225,13 @@ h2::after{
   top: -10px;
   right: -25px;
 }
-/* Floats */
+/* Floats
 .author-img{
   float: left;
   margin-bottom: 20px;
 }
 .author{
-  /* padding-left: 80px; */
+  padding-left: 80px;
   float: left;
   margin-top: 10px;
   margin-left: 20px;
@@ -252,16 +252,67 @@ nav{
   display: block;
 }
 article{
-  /* background-color: red; */
+  background-color: red;
   width: 825px;
   float: left;
 }
 aside{
-  /* background-color: rebeccapurple; */
+  background-color: rebeccapurple;
   width: 300px;
   float: right;
 }
 footer{
-  /* background-color: yellow; */
+  background-color: yellow;
   clear: both;
+} */
+
+
+/* Flexbox */
+.main-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.author-container{
+  display: flex;
+  margin-bottom: 15px ;
+  align-items: center;
+}
+.author{
+  margin-bottom: 0;
+  margin-left: 15px;
+} 
+.related-post{
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 20px;
+  
+}
+.related-author{
+  margin-bottom: 0;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+
+}
+.related-link:link{
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 5px;
+  display: block;
+
+}
+.main-container{
+  display: flex;
+  gap: 75px;
+}
+aside{
+  align-self: flex-start;
+  flex-basis: 300px;
+  flex-shrink: 0;
+}
+article{
+  flex: 1;
 }
