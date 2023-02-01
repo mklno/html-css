@@ -8,9 +8,11 @@
     <style>
       .el--1 {
         background-color: blueviolet;
+
       }
       .el--2 {
         background-color: orangered;
+ 
       }
       .el--3 {
         background-color: green;
@@ -30,6 +32,7 @@
       }
       .el--8 {
         background-color: crimson;
+    
       }
 
       .container--1 {
@@ -41,20 +44,28 @@
 
         /* CSS GRID */
         display: grid;
-        grid-template-columns: 10fr 5fr 5fr 1fr;
+        grid-template-columns: repeat(4, 200px);
+        grid-template-rows: repeat(2, 200px);
         gap: 10px;
+
+        display: none;
 
       }
 
       .container--2 {
         /* STARTER */
-        display: none;
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+        justify-content: center;
+        align-content: center ;
+
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
         margin: 100px;
 
-        width: 1000px;
+        width: 700px;
         height: 600px;
 
         /* CSS GRID */
