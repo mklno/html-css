@@ -31,19 +31,36 @@ Grey color: #343a40
       body {
         font-family: "Inter", "sans-serif";
         color: #343a40;
+        line-height: 1;
       }
       .accordion {
         width: 700px;
         margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
       }
       .item {
+        box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+        padding: 24px;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        column-gap: 24px;
+        row-gap: 32px;
+        align-items: center;
+       
       }
-      .num, .text {
+      .num,
+      .text {
         font-size: 24px;
         font-weight: 500;
         color: #087f5b;
       }
+      .num{
+        color: rgba(52, 58, 64, 0.5);
+      }
       .text {
+        color: #343a40;
       }
       .icon {
         width: 24px;
@@ -51,24 +68,73 @@ Grey color: #343a40
         stroke: #087f5b;
       }
       .hidden-box {
+        grid-column: 2/3;
+        display: none;
+        
       }
-      .hidden-box p{
+      .hidden-box p {
         line-height: 1.6;
         margin-bottom: 24px;
+        
       }
-      .hidden-box ul{
+      .hidden-box ul {
         color: rgba(52, 58, 64, 0.591);
         margin-left: 18px;
         display: flex;
         flex-direction: column;
         gap: 12px;
+      }
+      .open{
+        border-top: solid #087f5b 4px;
+      }
+      .open .hidden-box{
+        display: block;
         
+      }
+      .open .num, .open .text{
+        color: #087f5b;
       }
     </style>
   </head>
   <body>
     <div class="accordion">
-      <div class="item">
+      <div class="item ">
+        <p class="num">01</p>
+        <p class="text">Where are these chairs assembled?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+        <div class="hidden-box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              impedit blanditiis corporis dignissimos? Pariatur repellat nam
+              repellendus quod, hic soluta necessitatibus corporis tempora eos
+              explicabo tempore expedita illo minus? Dicta!
+            </p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+              <li>
+                Rerum nobis dolor voluptates aliquid consectetur culpa laudantium.
+              </li>
+              <li>
+                Cupiditate tenetur perspiciatis numquam nemo possimus voluptatem.
+              </li>
+              <li>Officiis sed impedit iure, ratione quas maiores.</li>
+            </ul>
+          </div>
+      </div>
+      <div class="item open">
         <p class="num">02</p>
         <p class="text">How long do I have to return my chair?</p>
         <svg
@@ -103,6 +169,42 @@ Grey color: #343a40
             <li>Officiis sed impedit iure, ratione quas maiores.</li>
           </ul>
         </div>
+      </div>
+      <div class="item">
+        <p class="num">03</p>
+        <p class="text">Do you ship to countries outside the EU?</p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+        <div class="hidden-box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              impedit blanditiis corporis dignissimos? Pariatur repellat nam
+              repellendus quod, hic soluta necessitatibus corporis tempora eos
+              explicabo tempore expedita illo minus? Dicta!
+            </p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+              <li>
+                Rerum nobis dolor voluptates aliquid consectetur culpa laudantium.
+              </li>
+              <li>
+                Cupiditate tenetur perspiciatis numquam nemo possimus voluptatem.
+              </li>
+              <li>Officiis sed impedit iure, ratione quas maiores.</li>
+            </ul>
+          </div>
       </div>
     </div>
   </body>
