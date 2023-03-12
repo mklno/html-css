@@ -1,0 +1,252 @@
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+.hero-header {
+  font-size: 2rem;
+  color: #845ef7;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 1.2rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 0;
+}
+
+.hero-description {
+  font-size: 2.4rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  font-weight: 500;
+}
+.hero-img {
+  width: 100%;
+}
+
+.logo img {
+  width: 13.2rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 10rem;
+}
+.nav-bar ul {
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+  margin-right: 7rem;
+}
+.nav-bar a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #394360;
+}
+.nav-login .log-in {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #845ef7;
+  font-weight: 400;
+  margin-right: 4.2rem;
+}
+.nav-login .btn {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1.2rem 3.4rem;
+}
+/* learning */
+.learning {
+  padding: 6rem 10rem;
+  background-color: #f8f8ff;
+}
+.learning-heading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+  color: #22293e;
+  line-height: 1.2;
+}
+.learning-description {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #22293e;
+  line-height: 1.5;
+  margin-bottom: 6rem;
+}
+.learning-flex {
+  display: flex;
+}
+.learning-empty {
+  width: 100%;
+}
+.component img {
+  margin-bottom: 3rem;
+}
+.component {
+  background-color: #fff;
+  padding: 4rem;
+  border-radius: 11px;
+  color: #22293e;
+}
+.component-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.component-description {
+  font-size: 1.4rem;
+  font-weight: regular;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+.component-btn- {
+  text-align: center;
+}
+.component-btn:link,
+.component-btn:visited {
+  background-color: #44e4c9;
+  text-decoration: none;
+  padding: 0.8rem 5.2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 6px;
+  text-align: center;
+}
+/* about-us */
+.about-us {
+  padding: 6rem 10rem 0 10rem;
+}
+
+.about-us-img {
+  width: 100%;
+}
+.about-us-icon {
+  width: 4.4rem;
+  height: 4.4rem;
+  color: #44e4c9;
+  display: inline-block;
+}
+.about-us-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.list {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  width: 70%;
+}
+.list span {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+/* recruits */
+.section-recruits {
+  background-color: #f8f8ff;
+  padding: 6rem 10rem;
+  text-align: center;
+}
+.recruits-logos.grid {
+  padding: 0 6.4rem;
+  row-gap: 4rem;
+  column-gap: 2rem;
+}
+/* testimonial */
+.section-testimonial {
+  padding: 6rem 10rem;
+}
+.testimonial-textbox {
+  text-align: center;
+}
+/* testimonial-component */
+.testimonial-components {
+  display: flex;
+  gap: 8.6rem;
+  padding-top: 3.6rem;
+}
+.testimonial-component {
+  border: 1px solid #845ef7;
+  border-radius: 9px;
+  position: relative;
+  padding: 6rem 2.4rem 2.4rem 2.4rem;
+  text-align: center;
+}
+.testimonial-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonial-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #22293e;
+  margin-bottom: 1rem;
+}
+.testimonial-job {
+  color: #bab8d2;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.testimonial-desc {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #22293e;
+  line-height: 1.5;
+}
+/* cta */
+.section-cta {
+  background-image: url("/assets/cta.png"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-blend-mode: overlay;
+  padding: 8rem;
+  text-align: center;
+}
+.cta-textbox h2,
+.cta-textbox p {
+  color: #fff;
+}
+/* footer */
+footer {
+  padding: 6rem 10rem;
+}
+.footer-text {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 0 4.8rem;
+}
+.footer-contents{
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #22293e;
+}
+.footer-content {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #22293e;
+  line-height: 1.8;
+}
+
+.footer-contact{
+  color: #845ef7;
+}
