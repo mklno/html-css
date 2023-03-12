@@ -208,7 +208,7 @@
 }
 /* cta */
 .section-cta {
-  background-image: url("/assets/cta.png"),
+  background-image: url("../assets/cta.png"),
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-size: cover;
   background-blend-mode: overlay;
