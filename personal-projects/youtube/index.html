@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="nav-main-container">
+      <nav class="section-nav">
+        <div class="nav-logo mb-sm">
+          <img
+            src="assets/icons/icon-4/hambarger.png"
+            alt=""
+            class="nav-icon"
+          />
+          <img src="assets/logo/logo-4x.png" alt="" class="logo" />
+        </div>
+        <div class="nav-home">
+          <ul class="nav-home-container">
+            <li class="nav-home-component highlighted">
+              <img
+                src="assets/icons/icon-4/home.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Home</p>
+            </li>
+            <li class="nav-home-component">
+              <img
+                src="assets/icons/icon-4/explore.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Explores</p>
+            </li>
+            <li class="nav-home-component">
+              <img
+                src="assets/icons/icon-4/shorts.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Shorts</p>
+            </li>
+            <li class="nav-home-component mb-sm">
+              <img
+                src="assets/icons/icon-4/subscription.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Subscriptions</p>
+            </li>
+          </ul>
+        </div>
+        <hr class="mb-sm" />
+        <div class="nav-home">
+          <ul class="nav-home-container">
+            <li class="nav-home-component">
+              <img
+                src="assets/icons/icon-4/library.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Library</p>
+            </li>
+            <li class="nav-home-component">
+              <img
+                src="assets/icons/icon-4/history.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">History</p>
+            </li>
+            <li class="nav-home-component">
+              <img
+                src="assets/icons/icon-4/your_video.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Your videos</p>
+            </li>
+            <li class="nav-home-component">
+              <img
+                src="assets/icons/icon-4/watch_later.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Watch later</p>
+            </li>
+            <li class="nav-home-component">
+              <img
+                src="assets/icons/icon-4/liked.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Liked videos</p>
+            </li>
+            <li class="nav-home-component mb-sm">
+              <img
+                src="assets/icons/icon-4/down_arrow.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Show more</p>
+            </li>
+          </ul>
+          <hr class="mb-sm" />
+          <ul class="nav-home-container">
+            <li class="nav-home-component">
+              <img
+                src="assets/profile-pictures/picture-1.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Nadir On The Go</p>
+            </li>
+            <li class="nav-home-component">
+              <img
+                src="assets/profile-pictures/picture-2.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Coke Studio Banga</p>
+            </li>
+            <li class="nav-home-component">
+              <img
+                src="assets/profile-pictures/picture-3.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">MKBHD</p>
+            </li>
+            <li class="nav-home-component">
+              <img
+                src="assets/profile-pictures/picture-4.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Figma</p>
+            </li>
+            <li class="nav-home-component">
+              <img
+                src="assets/profile-pictures/picture-5.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">ATC Android</p>
+            </li>
+            <li class="nav-home-component">
+              <img
+                src="assets/profile-pictures/picture-6.png"
+                alt=""
+                class="nav-home-img nav-icon"
+              />
+              <p class="nav-home-text">Alux.com</p>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main class="section-main">
+        <section class="section-main-nav">
+          <div class="search-bar">
+            <input type="text" placeholder="Search" class="search-input" />
+            <button class="btn-search">
+              <img
+                src="assets/icons/icon-4/search.png"
+                alt=""
+                class="nav-icon"
+              />
+            </button>
+            <button class="btn-mic">
+              <img
+                src="assets/icons/icon-4/voice-search.png"
+                alt=""
+                class="nav-icon"
+              />
+            </button>
+          </div>
+          <div class="section-main-profile">
+            <button class="btn-profile">
+              <img
+                src="assets/icons/icon-4/create-1.png"
+                alt=""
+                class="nav-icon"
+              />
+            </button>
+            <button class="btn-profile">
+              <img src="assets/icons/icon-4/more.png" alt="" class="nav-icon" />
+            </button>
+            <button class="btn-profile">
+              <img
+                src="assets/icons/icon-4/create.png"
+                alt=""
+                class="nav-icon"
+              />
+            </button>
+            <a href="#" class=""
+              ><img
+                src="assets/logo/profile-picture.png"
+                alt=""
+                class="nav-icon"
+            /></a>
+          </div>
+        </section>
+        <hr class="main-hr" />
+        <section class="section-topic">
+          <button class="section-topic-btn highlighted-topic-btn">All</button>
+          <button class="section-topic-btn">Cook Studio</button>
+          <button class="section-topic-btn">UX</button>
+          <button class="section-topic-btn">Case Study</button>
+          <button class="section-topic-btn">Music</button>
+          <button class="section-topic-btn">Bangla Lofi</button>
+          <button class="section-topic-btn">Tour</button>
+          <button class="section-topic-btn">Saintmartin</button>
+          <button class="section-topic-btn">Tech</button>
+          <button class="section-topic-btn">iPhone13</button>
+          <button class="section-topic-btn">User Interface Design</button>
+          <button class="section-topic-btn">Computers</button>
+          <!-- <button class="btn-profile right-arrow"><img src="assets/icons/icon-4/down_arrow.png" alt="" class="nav-icon"></button> -->
+        </section>
+        <hr class="main-hr" />
+        <section class="section-main-container">
+          <div class="main-container grid grid--4-cols">
+            <div class="main-component">
+              <img
+                src="assets/thumbnails/nine.webp"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <img
+                  src="assets/thumbnails/nine-dp.jpeg"
+                  alt=""
+                  class="component-icon"
+                />
+                <div class="component-text">
+                  <p class="component-heading">HTCக்கு என்னதான் ஆச்சு?</p>
+                  <p class="component-profile-name">Meta Monkeys</p>
+                  <div class="component-channel-box">
+                    
+                  <p class="component-info">
+                    14k views</p>
+                  <div class="dot"></div>
+                  <p class="component-info">18 hours ago</p>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div> <div class="main-component">
+              <img
+                src="assets/thumbnails/ten.webp"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <img
+                  src="assets/thumbnails/ten-dp.jpeg"
+                  alt=""
+                  class="component-icon"
+                />
+                <div class="component-text">
+                  <p class="component-heading">How will Arc make money?</p>
+                  <p class="component-profile-name">The Browser Company</p>
+                  <div class="component-channel-box">
+                    
+                  <p class="component-info">
+                    48k views</p>
+                  <div class="dot"></div>
+                  <p class="component-info">3 months ago</p>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-component">
+              <img
+                src="assets/thumbnails/eleven.webp"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <img
+                  src="assets/thumbnails/eleven-dp.jpeg"
+                  alt=""
+                  class="component-icon"
+                />
+                <div class="component-text">
+                  <p class="component-heading">Added a feature that I wanted so bad!</p>
+                  <p class="component-profile-name">Takuya Matsuyama</p>
+                  <div class="component-channel-box">
+                    
+                  <p class="component-info">
+                    2k views</p>
+                  <div class="dot"></div>
+                  <p class="component-info">1 day ago</p>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div><div class="main-component">
+              <img
+                src="assets/thumbnails/twelve.webp"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <img
+                  src="assets/thumbnails/twelve-dp.jpeg"
+                  alt=""
+                  class="component-icon"
+                />
+                <div class="component-text">
+                  <p class="component-heading">The new AirPods Pro | Quiet the noise | Apple</p>
+                  <p class="component-profile-name">Apple</p>
+                  <div class="component-channel-box">
+                    
+                  <p class="component-info">
+                    2M views</p>
+                  <div class="dot"></div>
+                  <p class="component-info">3 days ago</p>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-component">
+              <img
+                src="assets/thumbnails/one.png"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <img
+                  src="assets/thumbnails/one-dp.png"
+                  alt=""
+                  class="component-icon"
+                />
+                <div class="component-text">
+                  <p class="component-heading">
+                    Bulbuli | Coke Studio Bangla | Season One | Ritu Raj X
+                    Nandita
+                  </p>
+                  <p class="component-profile-name">Coke Studio Bangla</p>
+                  <div class="component-channel-box">
+                    
+                  <p class="component-info">
+                    1.5M views</p>
+                  <div class="dot"></div>
+                  <p class="component-info">2 days ago</p>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-component">
+              <img
+                src="assets/thumbnails/two.png"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <img
+                  src="assets/thumbnails/two-dp.png"
+                  alt=""
+                  class="component-icon"
+                />
+                <div class="component-text">
+                  <p class="component-heading">Infinix Note 12 : ১৮ হাজার টাকায়
+                    AMOLED ডিসপ্লে ও Helio G88 SoC!</p>
+                  <p class="component-profile-name">ATC Andriod ToTo Company</p>
+                  <div class="component-channel-box">
+                    
+                  <p class="component-info">
+                    4.2M views</p>
+                  <div class="dot"></div>
+                  <p class="component-info">2 days ago</p>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-component">
+              <img
+                src="assets/thumbnails/three.png"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <img
+                  src="assets/thumbnails/three-dp.png"
+                  alt=""
+                  class="component-icon"
+                />
+                <div class="component-text">
+                  <p class="component-heading">My first UX Design case study - 
+                    This got me my first job.</p>
+                  <p class="component-profile-name">Saptarshi Prakash</p>
+                  <div class="component-channel-box">
+                    
+                  <p class="component-info">
+                    4.8k views</p>
+                  <div class="dot"></div>
+                  <p class="component-info">1 year ago</p>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-component">
+              <img
+                src="assets/thumbnails/four.png"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <div class="component-text">
+                  <p class="component-heading">My Mix</p>
+                  <p class="component-profile-name">Lopamudra Mitra, Anupam Roy, and more</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-component">
+              <img
+                src="assets/thumbnails/five.png"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <img
+                  src="assets/thumbnails/five-dp.png"
+                  alt=""
+                  class="component-icon"
+                />
+                <div class="component-text">
+                  <p class="component-heading">UX Design - What is it? (From AJ
+                    &Smart)</p>
+                  <p class="component-profile-name">AJ&Smar</p>
+                  <div class="component-channel-box">
+                    
+                  <p class="component-info">150k views</p>
+                  <div class="dot"></div>
+                  <p class="component-info">3 years ago</p>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-component">
+              <img
+                src="assets/thumbnails/six.png"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <div class="component-text">
+                  <p class="component-heading">Mix - Mombati | Mohon Sharif | Dhakaiya Dose | Mahib Ahsan ft Anika</p>
+                  <p class="component-profile-name">Mohon Sharif, Odd Signature, Shayan Chowdhury Arnob, and more</p>
+                </div>
+              </div>
+            </div>
+            <div class="main-component">
+              <img
+                src="assets/thumbnails/seven.png"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <img
+                  src="assets/thumbnails/seven-dp.png"
+                  alt=""
+                  class="component-icon"
+                />
+                <div class="component-text">
+                  <p class="component-heading">বাংলাদেশ পাসপোর্টে ৪৮ দেশে ভিসা-
+                    ফ্রী ভ্রমন | 48 VISA-FREE</p>
+                  <p class="component-profile-name">Nadir On The Go</p>
+                  <div class="component-channel-box">
+                    
+                  <p class="component-info">
+                    1.7M views</p>
+                  <div class="dot"></div>
+                  <p class="component-info">1 year ago</p>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>            <div class="main-component">
+              <img
+                src="assets/thumbnails/eight.png"
+                alt=""
+                class="component-img"
+              />
+              <div class="component-textbox">
+                <img
+                  src="assets/thumbnails/eight-dp.png"
+                  alt=""
+                  class="component-icon"
+                />
+                <div class="component-text">
+                  <p class="component-heading">14 Advanced Tips to Design
+                    FASTER in Figma</p>
+                  <p class="component-profile-name">Mizko</p>
+                  <div class="component-channel-box">
+                    
+                  <p class="component-info">
+                    43k views</p>
+                  <div class="dot"></div>
+                  <p class="component-info">1 year ago</p>
+                  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
